@@ -2,7 +2,7 @@
   <aside class="aside">
     <Profile />
     <div class="aside__content">
-      <div class="aside__scroll">
+      <div class="aside__scroll hide-scrollbar">
         <ProfileInfo />
         <span class="line"></span>
         <Skills />
@@ -40,6 +40,7 @@ import Skills from "@/components/Skills.vue";
     overflow-y: auto;
     padding-right: 10px;
     height: 100%;
+    
   }
 }
 </style>
